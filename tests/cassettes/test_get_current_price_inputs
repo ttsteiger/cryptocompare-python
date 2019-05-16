@@ -7,48 +7,51 @@ interactions:
       Connection: [keep-alive]
       User-Agent: [python-requests/2.19.1]
     method: GET
-    uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=USD&e=CCCAGG
-  response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA6tWcgpxVrKqVgoNdlGyMjO1tNAzNK6tBQAsaGJTFwAAAA==
-    headers:
-      Access-Control-Allow-Headers: [Content-Type]
-      Access-Control-Allow-Methods: [GET]
-      Access-Control-Allow-Origin: ['*']
-      Cache-Control: ['public, max-age=29']
-      Connection: [keep-alive]
-      Content-Encoding: [gzip]
-      Content-Type: [application/json; charset=UTF-8]
-      CryptoCompare-Cache-HIT: ['false']
-      Date: ['Sat, 29 Sep 2018 21:22:01 GMT']
-      Server: [nginx/1.10.3]
-      Transfer-Encoding: [chunked]
-      Vary: [Accept-Encoding]
-    status: {code: 200, message: OK}
-- request:
-    body: null
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      User-Agent: [python-requests/2.19.1]
-    method: GET
     uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH&tsyms=USD&e=CCCAGG
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWcgpxVrKqVgoNdlGyMjO1tNAzNK7VUXIN8YCLGhkb6hlY1NYCADZxq3IsAAAA
+        H4sIAAAAAAAAA6tWcgpxVrKqVgoNdlGyMrc0stAzM67VUXIN8YCLGpla6lmY19YCAK/+MzcsAAAA
     headers:
-      Access-Control-Allow-Headers: [Content-Type]
-      Access-Control-Allow-Methods: [GET]
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      Cache-Control: ['public, max-age=29']
+      Cache-Control: ['public, max-age=10']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
+      Content-Type: [application/json; charset=UTF-8]
+      CryptoCompare-Cache-HIT: ['true']
+      Date: ['Thu, 16 May 2019 14:47:34 GMT']
+      Server: [nginx/1.4.6 (Ubuntu)]
+      Vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.19.1]
+    method: GET
+    uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=EUR&e=CCCAGG
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWcgpxVrKqVnINDVKyMjc0sNSzNKutBQBKpZp4FwAAAA==
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: ['public, max-age=10']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
       Content-Type: [application/json; charset=UTF-8]
       CryptoCompare-Cache-HIT: ['false']
-      Date: ['Sat, 29 Sep 2018 21:22:01 GMT']
+      Date: ['Thu, 16 May 2019 14:47:35 GMT']
       Server: [nginx/1.10.3]
       Transfer-Encoding: [chunked]
       Vary: [Accept-Encoding]
@@ -61,22 +64,24 @@ interactions:
       Connection: [keep-alive]
       User-Agent: [python-requests/2.19.1]
     method: GET
-    uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=USD,EUR&e=CCCAGG
+    uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH&tsyms=EUR&e=CCCAGG
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWcgpxVrKqVgoNdlGyMjO1NNMzMdFRcg0NUrIyNTO31DMyq60FACElJF8lAAAA
+        H4sIAAAAAAAAA6tWcgpxVrKqVnINDVKyMjc0NNQzrdVRcg3xgAsaGRvpmVvW1gIAQ78xyysAAAA=
     headers:
-      Access-Control-Allow-Headers: [Content-Type]
-      Access-Control-Allow-Methods: [GET]
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      Cache-Control: ['public, max-age=29']
+      Cache-Control: ['public, max-age=10']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
       Content-Type: [application/json; charset=UTF-8]
       CryptoCompare-Cache-HIT: ['false']
-      Date: ['Sat, 29 Sep 2018 21:23:28 GMT']
-      Server: [nginx/1.10.3]
+      Date: ['Thu, 16 May 2019 14:47:35 GMT']
+      Server: [nginx/1.4.6 (Ubuntu)]
       Transfer-Encoding: [chunked]
       Vary: [Accept-Encoding]
     status: {code: 200, message: OK}
@@ -88,23 +93,24 @@ interactions:
       Connection: [keep-alive]
       User-Agent: [python-requests/2.19.1]
     method: GET
-    uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH&tsyms=USD,EUR&e=CCCAGG
+    uri: https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=USD&e=CCCAGG
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWcgpxVrKqVgoNdlGyMjO1NNMzMdFRcg0NUrIyNTO31DMyqwVyQzzgaoyMDfQs
-        jaFKDC0t9MzNamsBCDuAO0cAAAA=
+        H4sIAAAAAAAAA6tWcgpxVrKqVgoNdlGyMrc0MtMztqitBQDAe+eNFwAAAA==
     headers:
-      Access-Control-Allow-Headers: [Content-Type]
-      Access-Control-Allow-Methods: [GET]
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      Cache-Control: ['public, max-age=29']
+      Cache-Control: ['public, max-age=10']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
       Content-Type: [application/json; charset=UTF-8]
-      CryptoCompare-Cache-HIT: ['false']
-      Date: ['Sat, 29 Sep 2018 21:23:29 GMT']
-      Server: [nginx/1.10.3]
+      CryptoCompare-Cache-HIT: ['true']
+      Date: ['Thu, 16 May 2019 14:47:47 GMT']
+      Server: [nginx/1.4.6 (Ubuntu)]
       Transfer-Encoding: [chunked]
       Vary: [Accept-Encoding]
     status: {code: 200, message: OK}
