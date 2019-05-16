@@ -1,0 +1,155 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.19.1]
+    method: GET
+    uri: https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=BTC,USD&e=CCCAGG
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6WWy25bNxCGX0UgtKQZ3oYX744lVVYtRYJ01MCrwkXc1EBjGYmLtgi8ynv0fbrp
+        M/Unjy6HR0qrtIYBWcOZ4cyQH39/YsvqDbv8xEb1dfq4qgfpo75djNglI8bZrFrejGp8GQwG1XgM
+        yzfL+Wx1O7uaT2FNcZzV870hZYDPtBqv8M3i78VyMkA2KaRRljibVqt6vRhWNYyKKEiljHGN/bv5
+        dD3LzkRktLSxba/nOY3yNnhptTZSNcv1shqOJkNs6LVzUhts24QMq1t2aZU3FK3APpG0tcG1llNS
+        Zax0JJy32nvng4s7B22v5+slu3Raa+m0MCqotLMvHXKSqGSQwsigojNkrOVsvhi9ziWk7qUJnF1P
+        xtd7i1Gp7/mblotqgnb7wqhDUE1cy2iSIyILP7ed4uHMNg+PP9x9vN+Po3FWMUrvEIHtIlllQ3s9
+        9eKMNkL6SITdndPUVHXYXgVqamqZIuWSWhaLIgfX1evxqFWn1M7uzItBvVuJQjljg41SoTiZJtP4
+        7IYDu4utn9BKkn2MIBwSmRhQtLE4otV6sZhiBZEy4vSDQBxqmt3Ug2qBCFw88lo4pUgrlxqo53U1
+        3R8tu8QddEZ6JRCNOeiuRzOtEB0qtCpESVaj9MmsGo/Wy0TEq/f3bx/uXuH6WPfq/vmn73/evNuI
+        p8d37IWz9Wr4P4FLGU4Cpy2JVO9J3nzJG3UxU1pH4amLl6EA+jR1AFM6mOADtiOHa6id6QCGQRtK
+        ZyCssSZ60+ULV9HiBouA8VlyYPAYMFLG48C0FZLIqRjagGkbhNMtvrQ3TftbvLQ1wtuSLm2U0FTC
+        leNiAZfWHjB02Lp6eP7x4fH+tw5bIN/isgS8NzrdV0VdthQBK08klJUUjZQFXJqk0LrNFi6dINtC
+        Cy+YOCC0K1JZob08/KgTjDmhPJ6n/S8VjF0A+TZg0ZouYheYl3UhaI/CcRNSXf8GmXbSerJ40BUO
+        LkpzxNB5lBHeT2s03moR4B/MuZS9gLPhZLWYpg66UlfA9dcfJVt/fi6A/PD70/NmsHn/dPfhvjd5
+        fJsPf0sbfHtbiWMlc+zbXz4+9x43v7KSOezWa3SOdenbJsOAIztL4VIuyyFzPOsc6+CX8mFuPImc
+        Z132UrDjEDieFY4dk5fjcaZZ31iLul3XOBrWYm9nhr6xA4EHZ8VKDrcrSelYSeMhk2QFk/sQ59h5
+        qpfahPLxLH2sS2XK53iWvcDaQO4PNhBrY7m3R2ItOA/3ILVSIrpdgwCyE3CypICsIHIXoBTrksjS
+        68YO9OXupONAkOPfnNzhjsCUxsDqBPneDTvGLwVrKazrzY5W98NJYLsc/pXi9o+I9c8nrN9rJO0r
+        +CIM75iufk/xRt+O6PqCwOXpcqgczzJ3xFe/B4HjkDieNe4kYsArIQiRi6cQ6/egbxwCx5PCqYKy
+        1HmSt4IxGP32EuwJS45J5rp8wZ6lrkvXNkfssAVzlrwuWV/QvPyA4Omx7dZbjUFnIHk8a17JFjbK
+        eleSlaxJ8wquUmtJ946pwgZJ+04ylRSvw1S/B6HLz0mHqIvthM5CCuXgGaHe1X/BCWeNyxDwz1D2
+        OFfGXv4GZXy4k68NAAA=
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: ['public, max-age=10']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
+      Content-Type: [application/json; charset=UTF-8]
+      CryptoCompare-Cache-HIT: ['false']
+      Date: ['Thu, 16 May 2019 12:55:47 GMT']
+      Server: [nginx/1.4.6 (Ubuntu)]
+      Transfer-Encoding: [chunked]
+      Vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.19.1]
+    method: GET
+    uri: https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=BTC,USD&e=Binance
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAyWOsQrCQAxAfyVkUjgXxxulhQ4KUiudg6Zt0N6VJINS+u9Wuj3e8Hgz1mxTTsYY
+        sVTNigEvbEb935wkUXowjKQvdnhmNkjZgT9iDl1W8EEMHlkSTCQKu7KpDvdbsV8zFVlLmiT1GDt6
+        GwdsvtOaPQasyfksozjGeQlYkNNGV1IaW/Fhm4nIuPwAxXnZW6UAAAA=
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: ['public, max-age=0']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
+      Content-Type: [application/json; charset=UTF-8]
+      CryptoCompare-Cache-HIT: ['false']
+      Date: ['Thu, 16 May 2019 12:57:53 GMT']
+      Server: [nginx/1.10.3]
+      Transfer-Encoding: [chunked]
+      Vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.19.1]
+    method: GET
+    uri: https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=BTC&e=Binance
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA42TzW7TQBDHXyWas7Xdnf3OzU1MEupgK3GoekIVVKUSpEgUcahy4j14Hy48EzN2
+        HH+kSM3Fyn8+/js7+3uGTXoN02fIqiV/LqsZf6qbMoMpICSwTjdXWUV/Lh/2t/uPdyS92RTr7c36
+        sshJ5sIEquIkcAvKydPF9tii3Kxm1E4KqdGrBPJ0W+3KeVqRqKwNUgUlY6O/L/Ld+pjs+1JV1KJU
+        qCQeI9UmnWerOdkopbzWTnqya/Ln6Q1MTdDKBOF0rH9B9aLckNy1FcZKo50Lpo2iWRa7DUy90kpF
+        oaxrykcJ3AFReyeiDArReyfJoSizd7U7z0BT2ASWq8XyJGk0JOXFdS9JxaaudSYVozJNZU/sigeZ
+        ErE9WqMin1cYb5rBo+6H+dzRWxG98cFJE6W0uvHvjFRkje07DaNtzPtpSCPPlum7RdY7ktTWy96P
+        d9kklbOqzVMo0CqUtPygjAuxzWkvRqLW9n9d6iQvXPBo0Megra7Pst2VZU4hJZ2MGFAK65Sjh3xV
+        zdISptp4ujEnlJO8V+0sP98qzU+rpeuTPlp6lMIEQ6715oc5fIfOU38lvFFG0xsO1Gi1ThfZbsMc
+        XHy9+/Rwe4HSGXdx9/T5w5fH+0fxbX8Ph8MhgflqW+Y8wpi9AV1/fw/h+vPrZSSPiFF8csQMhpzB
+        2x/fnyb7x58w5Iwc6graFoxxO3arkYNXEsf9iLqkxg5GuHFDZRNmzsIYNq4k4BImDuGcNC6mZ17j
+        Bj3K2plpBuiR1soEDHS0dckIQ+KOEaYOhtiddTorkd15u1kwJsyghTF6XNbgB33oWhsCD/rgnXZa
+        6yf4unQ2HwLYLk47eAE7qLmDAWxtBWoYIwbEGF94yxXPRmwlBFfCdLFHyxa30QkBJrScXME5WPXF
+        SBHkZH0Wbe+GsBIY6vLX4nT4BzgcC0bIBgAA
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: ['public, max-age=10']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
+      Content-Type: [application/json; charset=UTF-8]
+      CryptoCompare-Cache-HIT: ['true']
+      Date: ['Thu, 16 May 2019 14:48:57 GMT']
+      Server: [nginx/1.10.3]
+      Transfer-Encoding: [chunked]
+      Vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.19.1]
+    method: GET
+    uri: https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=USD&e=Binance
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAyWOsQrCQAxAfyVkUjgXxxulhQ4KUiudg6Zt0N6VJINS+u9Wuj3e8Hgz1mxTTsYY
+        sVTNigEvbEb935wkUXowjKQvdnhmNkjZgT9iDl1W8EEMHlkSTCQKu7KpDvdbsV8zFVlLmiT1GDt6
+        GwdsvtOaPQasyfksozjGeQlYkNNGV1IaW/Fhm4nIuPwAxXnZW6UAAAA=
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Content-Type, Cookie, Set-Cookie, Authorization']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: ['public, max-age=0']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Security-Policy: [frame-ancestors 'none']
+      Content-Type: [application/json; charset=UTF-8]
+      CryptoCompare-Cache-HIT: ['false']
+      Date: ['Thu, 16 May 2019 14:48:57 GMT']
+      Server: [nginx/1.4.6 (Ubuntu)]
+      Transfer-Encoding: [chunked]
+      Vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1

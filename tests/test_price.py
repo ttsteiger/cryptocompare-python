@@ -153,3 +153,60 @@ def test_get_high_historical_data():
     assert data.keys() == set(['time', 'high'])
     data['time'] == '2018-09-29 00:30:00'
     data['high'] == 6537.44
+
+
+@cryptocompy_vcr.use_cassette()
+def test_get_current_price_with_invalid_pair():
+    """
+        In this test, the pair "ETH-USD" doesn't exist on Binance
+    """
+
+    prices = price.get_current_price("ETH", ["BTC", "USD"],
+                                     full=False, e="Binance")
+
+    assert prices == {'ETH': {'BTC': 0.03184}}
+
+
+@cryptocompy_vcr.use_cassette(record_mode="new")
+def test_get_current_price_with_invalid_pair_full():
+    """
+        In this test, the pair "ETH-USD" doesn't exist on Binance
+    """
+
+    prices = price.get_current_price("ETH", ["BTC", "USD"],
+                                     full=True, e="Binance")
+
+    assert prices == {'ETH': {'BTC': {'CHANGE24HOUR': 0.0035700000000000037,
+                                      'CHANGEDAY': 0.0023350000000000037,
+                                      'CHANGEPCT24HOUR': 12.25120109814689,
+                                      'CHANGEPCTDAY': 7.687242798353921,
+                                      'FLAGS': '2',
+                                      'FROMSYMBOL': 'ETH',
+                                      'HIGH24HOUR': 0.033245,
+                                      'HIGHDAY': 0.033245,
+                                      'HIGHHOUR': 0.032955,
+                                      'IMAGEURL': '/media/20646/eth_logo.png',
+                                      'LASTTRADEID': '111733607',
+                                      'LASTUPDATE': 1558018109,
+                                      'LASTVOLUME': 0.037,
+                                      'LASTVOLUMETO': 0.00121027,
+                                      'LOW24HOUR': 0.029022,
+                                      'LOWDAY': 0.030319,
+                                      'LOWHOUR': 0.031921,
+                                      'MARKET': 'Binance',
+                                      'MKTCAP': 3470296.1605699365,
+                                      'OPEN24HOUR': 0.02914,
+                                      'OPENDAY': 0.030375,
+                                      'OPENHOUR': 0.031953,
+                                      'PRICE': 0.03271,
+                                      'SUPPLY': 106092820.5616,
+                                      'TOSYMBOL': 'BTC',
+                                      'TOTALVOLUME24H': 20795810.484037984,
+                                      'TOTALVOLUME24HTO': 679281.7414301885,
+                                      'TYPE': '2',
+                                      'VOLUME24HOUR': 713119.1569999984,
+                                      'VOLUME24HOURTO': 22376.90812277601,
+                                      'VOLUMEDAY': 483148.6399999981,
+                                      'VOLUMEDAYTO': 15535.450436684,
+                                      'VOLUMEHOUR': 29999.47499999993,
+                                      'VOLUMEHOURTO': 975.9747860490053}}}
